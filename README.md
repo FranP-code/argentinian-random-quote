@@ -13,6 +13,22 @@ const quotes = getRandomQuotes(
 
 ## How to colaborate
 
-You can colaborate with more quotes just adding more JS objects in the `quotes.js` file and making a **pull request** of the changes.
+You can colaborate with more quotes modifying the  **<span style="color: red">`quotes.js`</span>** file and making a **pull request** of the changes.
+
+The structure is the following:
+
+<!-- ```js
+{
+    quote: "You've met with a terrible fate, haven't you?",
+    author: "Happy Mask Seller"
+}
+``` -->
+
+```js
+{
+    quote: "x",
+    author: "y"
+}
+```
 
 Any addition is welcomed 🙌 
