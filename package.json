@@ -9,5 +9,13 @@
 		"random"
 	],
 	"author": "FranP-Code",
-	"license": "ISC"
+	"license": "ISC",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/FranP-code/argentinian-random-quote.git"
+	},
+	"bugs": {
+		"url": "https://github.com/FranP-code/argentinian-random-quote/issues"
+	},
+	"homepage": "https://github.com/FranP-code/argentinian-random-quote#readme"
 }
