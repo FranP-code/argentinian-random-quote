@@ -1,0 +1,16 @@
+{
+  "name": "argentinian-random-quote",
+  "version": "1.0.0",
+  "description": "Get your random argentinian quote in one second. It returns a JSON with the quote and the author of it, so you can use it freely with commodity.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "argentina",
+    "quote",
+    "random"
+  ],
+  "author": "FranP-Code",
+  "license": "ISC"
+}
