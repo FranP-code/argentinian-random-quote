@@ -1,3 +1,3 @@
 const getRandomQuote = require("./index.js");
 
-console.log(getRandomQuote(4));
+console.log(getRandomQuote(2));
