@@ -3,7 +3,7 @@
 ## Usage
 
 ```js
-const getRandomQuote = require("./index.js");
+const getRandomQuote = require("argentinian-random-quote");
 
 const quote = ...getRandomQuote(1)
 const quotes = getRandomQuote(4)
