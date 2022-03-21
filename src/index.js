@@ -1,6 +1,6 @@
 const data = require("../quotes.js");
 
-function getRandomQuote(quantity = 1, repeatedQuotes = false) {
+function getRandomQuotes(quantity = 1, repeatedQuotes = false) {
 	//If the user don't want repeated quotes, check if the quantity is bigger than the quotes
 	if (!repeatedQuotes && quantity > data.length) {
 		return [
@@ -33,4 +33,4 @@ function getRandomQuote(quantity = 1, repeatedQuotes = false) {
 	return result;
 }
 
-module.exports = getRandomQuote;
+module.exports = getRandomQuotes;

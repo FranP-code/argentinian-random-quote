@@ -3,10 +3,12 @@
 ## Usage
 
 ```js
-const getRandomQuote = require("argentinian-random-quote");
+const getRandomQuotes = require("argentinian-random-quote");
 
-const quote = ...getRandomQuote(1)
-const quotes = getRandomQuote(4)
+const quotes = getRandomQuotes(
+    10, //Quantity of quotes (1 by default)
+    true //If user wants repeated word or not (false by default) 
+)
 ```
 
 ## How to colaborate
