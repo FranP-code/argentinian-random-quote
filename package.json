@@ -1,6 +1,6 @@
 {
 	"name": "argentinian-random-quote",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Get your random argentinian quote in one second. It returns a JSON with the quote and the author of it, so you can use it freely with commodity.",
 	"main": "index.js",
 	"keywords": [
