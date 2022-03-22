@@ -1,4 +1,4 @@
-const data = require("../quotes.js");
+const { data } = require("../quotes.json");
 
 function getRandomQuotes(quantity = 1, repeatedQuotes = false) {
 	//If the user don't want repeated quotes, check if the quantity is bigger than the quotes
