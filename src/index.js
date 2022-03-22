@@ -1,8 +1,17 @@
 const { data } = require("../quotes.json");
 
-function getRandomQuotes(quantity = 1, repeatedQuotes = false) {
+//prettier-ignore
+function getRandomQuotes(quantity = 1, repeatedQuotes = false, alternativeData = []) {
+
+	let quotes = data
+
+	//In the case that the user pass a custom pack of words, use it
+	if (alternativeData.length > 0) {
+		quotes = alternativeData;
+	}
+
 	//If the user don't want repeated quotes, check if the quantity is bigger than the quotes
-	if (!repeatedQuotes && quantity > data.length) {
+	if (!repeatedQuotes && quantity > quotes.length) {
 		return [
 			{
 				quote: `Error, the quantity of quotes is too much big for not return repeated quotes. If you want ${quantity} quotes, pass true as second parameter of the function`,
@@ -15,7 +24,7 @@ function getRandomQuotes(quantity = 1, repeatedQuotes = false) {
 	let i = 0;
 
 	while (i < quantity) {
-		const quote = data[Math.floor(Math.random() * data.length)]; // credits: https://stackoverflow.com/a/5915122
+		const quote = quotes[Math.floor(Math.random() * quotes.length)]; // credits: https://stackoverflow.com/a/5915122
 
 		if (!repeatedQuotes) {
 			//If the user don't want repeated quotes, search the quote on the array
