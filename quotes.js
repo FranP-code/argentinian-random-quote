@@ -23,6 +23,14 @@ const data = [
 		quote: "Con 15 pesos me hago alto guiso",
 		author: "Desconocido",
 	},
+	{
+		quote: "Sos inimputable, hermano",
+		author: "Viejo inimputable", //Gracias u/Crul_
+	},
+	{
+		quote: "Es todo un tema",
+		author: "Dicho popular", //Gracias u/Pure-Salary
+	},
 ];
 
 module.exports = data;
