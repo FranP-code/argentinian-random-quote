@@ -16,6 +16,7 @@ function getRandomQuotes(quantity = 1, repeatedQuotes = false, alternativeData =
 			{
 				quote: `Error, the quantity of quotes is too much big for not return repeated quotes. If you want ${quantity} quotes, pass true as second parameter of the function`,
 				author: "FranP-Code",
+				status: "error",
 			},
 		];
 	}
@@ -29,7 +30,7 @@ function getRandomQuotes(quantity = 1, repeatedQuotes = false, alternativeData =
 		if (!repeatedQuotes) {
 			//If the user don't want repeated quotes, search the quote on the array
 			if (!result.includes(quote)) {
-				result.push(quote);
+				result.push({ ...quote, status: "success" });
 				i++;
 			}
 		} else {
