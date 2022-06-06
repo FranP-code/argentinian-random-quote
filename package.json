@@ -1,6 +1,6 @@
 {
 	"name": "argentinian-random-quote",
-	"version": "1.4.0",
+	"version": "1.4.5",
 	"description": "Get your random argentinian quote in one moment.",
 	"main": "src/index.js",
 	"keywords": [
