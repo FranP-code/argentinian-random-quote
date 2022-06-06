@@ -43,4 +43,9 @@ function getRandomQuotes(quantity = 1, repeatedQuotes = false, alternativeData =
 	return result;
 }
 
+function getAllQuotes() {
+	return data
+}
+
 module.exports = getRandomQuotes;
+module.exports.getAllQuotes = getAllQuotes;
